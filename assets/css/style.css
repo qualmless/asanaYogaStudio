@@ -467,8 +467,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #5fcf80;
-  border: 2px solid #5fcf80;
+  background: var(--fawn);
+  border: 2px solid var(--fawn);
 }
 
 @media (min-width: 1024px) {
@@ -541,7 +541,7 @@ section {
 .breadcrumbs {
   margin-top: 73px;
   text-align: center;
-  background: #5fcf80;
+  background: var(--dark-olive-green);
   padding: 30px 0;
   color: #fff;
 }
@@ -1170,7 +1170,7 @@ section {
 
 .pricing h4 {
   font-size: 36px;
-  color: #5fcf80;
+  color: var(--blue-ncs);
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
@@ -1220,7 +1220,7 @@ section {
 }
 
 .pricing .btn-buy {
-  background: #5fcf80;
+  background: var(--blue-ncs);
   display: inline-block;
   padding: 8px 35px;
   border-radius: 50px;
@@ -1239,7 +1239,7 @@ section {
 
 .pricing .featured h3 {
   color: #fff;
-  background: #5fcf80;
+  background: var(--kombu-green);
 }
 
 .pricing .advanced {
