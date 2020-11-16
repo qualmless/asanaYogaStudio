@@ -12,6 +12,8 @@
   --dark-olive-green: #606c38ff;
   --kombu-green: #283618ff;
   --cornsilk: #fefae0ff;
+  --blue-ncs: #428bb3ff;
+  --space-cadet: #1f2041ff;
   --fawn: #dda15eff;
   --liver-dogs: #bc6c25ff;
 }
@@ -669,16 +671,16 @@ section {
 
 .why-us .icon-boxes .icon-box {
   text-align: center;
-  background: #fff;
+  background: var(--isabelline);
   padding: 40px 30px;
   width: 100%;
-  border: 1px solid #eef0ef;
+  border: 1px solid var(--fawn);
 }
 
 .why-us .icon-boxes .icon-box i {
   font-size: 32px;
   padding: 18px;
-  color: #5fcf80;
+  color: var(--blue-ncs);
   margin-bottom: 30px;
   background: #ecf9f0;
   border-radius: 50px;
