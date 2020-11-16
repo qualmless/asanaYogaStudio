@@ -5,12 +5,24 @@
 * License: https://bootstrapmade.com/license/
 */
 
+:root {
+  --isabelline: #f0efebff;
+  --ash-gray: #b7b7a4ff;
+  --artichoke: #a5a58dff;
+  --dark-olive-green: #606c38ff;
+  --kombu-green: #283618ff;
+  --cornsilk: #fefae0ff;
+  --fawn: #dda15eff;
+  --liver-dogs: #bc6c25ff;
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: var(--kombu-green);
+  background-color: var(--isabelline);
 }
 
 a {
@@ -134,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #5fcf80;
+  color: var(--liver-dogs);
 }
 
 #header .logo img {
@@ -178,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #5fcf80;
+  color: var(--fawn);
 }
 
 .nav-menu .drop-down ul {
@@ -262,7 +274,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 22px;
-  background: #5fcf80;
+  background: var(--kombu-green);
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px;
@@ -273,7 +285,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .get-started-btn:hover {
-  background: #3ac162;
+  background: var(--liver-dogs);
   color: #fff;
 }
 
@@ -397,7 +409,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/yogis/avrielle-suleiman-GpVak9-cL6E-unsplash.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -435,6 +447,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #eee;
   margin: 10px 0 0 0;
   font-size: 24px;
+  width: 60%;
 }
 
 #hero .btn-get-started {
@@ -603,7 +616,7 @@ section {
 .counts .counters span {
   font-size: 48px;
   display: block;
-  color: #5fcf80;
+  color: var(--liver-dogs);
   font-weight: 700;
 }
 
@@ -621,7 +634,7 @@ section {
 --------------------------------------------------------------*/
 .why-us .content {
   padding: 30px;
-  background: #5fcf80;
+  background: var(--fawn);
   border-radius: 4px;
   color: #fff;
 }
