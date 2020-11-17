@@ -518,7 +518,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 14px;
+  font-size: 2rem;
   font-weight: 500;
   padding: 0;
   line-height: 1px;
@@ -531,10 +531,10 @@ section {
 
 .section-title h2::after {
   content: "";
-  width: 120px;
-  height: 1px;
+  width: 60%;
+  height: 3px;
   display: inline-block;
-  background: #9ae1af;
+  background: var(--blue-ncs);
   margin: 4px 10px;
 }
 
