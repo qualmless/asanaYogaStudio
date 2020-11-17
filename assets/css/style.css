@@ -5,12 +5,31 @@
 * License: https://bootstrapmade.com/license/
 */
 
+:root {
+  --isabelline: #f0efebff;
+  --ash-gray: #b7b7a4ff;
+  --artichoke: #a5a58dff;
+  --dark-olive-green: #606c38ff;
+  --kombu-green: #283618ff;
+  --cornsilk: #fefae0ff;
+  --blue-ncs: #428bb3ff;
+  --space-cadet: #1f2041ff;
+  --fawn: #dda15eff;
+  --liver-dogs: #bc6c25ff;
+  --eggshell: #f4f1deff;
+  --terra-cotta: #e07a5fff;
+  --independence: #3d405bff;
+  --green-sheen: #81b29aff;
+  --deep-champagne: #f2cc8fff;
+} 
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: var(--kombu-green);
+  background-color: var(--isabelline);
 }
 
 a {
@@ -24,6 +43,11 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+}
+
+h1 strong {
+  color: var(--artichoke);
+  font-size: 3rem;
 }
 
 /*--------------------------------------------------------------
@@ -134,7 +158,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #5fcf80;
+  color: var(--liver-dogs);
 }
 
 #header .logo img {
@@ -178,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #5fcf80;
+  color: var(--fawn);
 }
 
 .nav-menu .drop-down ul {
@@ -262,7 +286,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 22px;
-  background: #5fcf80;
+  background: var(--kombu-green);
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px;
@@ -273,7 +297,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .get-started-btn:hover {
-  background: #3ac162;
+  background: var(--liver-dogs);
   color: #fff;
 }
 
@@ -397,7 +421,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/yogis/avrielle-suleiman-GpVak9-cL6E-unsplash.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -435,6 +459,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #eee;
   margin: 10px 0 0 0;
   font-size: 24px;
+  /* width: 60%; */
 }
 
 #hero .btn-get-started {
@@ -452,8 +477,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #5fcf80;
-  border: 2px solid #5fcf80;
+  background: var(--fawn);
+  border: 2px solid var(--fawn);
 }
 
 @media (min-width: 1024px) {
@@ -526,7 +551,7 @@ section {
 .breadcrumbs {
   margin-top: 73px;
   text-align: center;
-  background: #5fcf80;
+  background: var(--dark-olive-green);
   padding: 30px 0;
   color: #fff;
 }
@@ -603,7 +628,7 @@ section {
 .counts .counters span {
   font-size: 48px;
   display: block;
-  color: #5fcf80;
+  color: var(--liver-dogs);
   font-weight: 700;
 }
 
@@ -619,24 +644,24 @@ section {
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
-.why-us .content {
+.why-yoga .content {
   padding: 30px;
-  background: #5fcf80;
+  background: var(--fawn);
   border-radius: 4px;
   color: #fff;
 }
 
-.why-us .content h3 {
+.why-yoga .content h3 {
   font-weight: 700;
   font-size: 34px;
   margin-bottom: 30px;
 }
 
-.why-us .content p {
+.why-yoga .content p {
   margin-bottom: 30px;
 }
 
-.why-us .content .more-btn {
+.why-yoga .content .more-btn {
   display: inline-block;
   background: rgba(255, 255, 255, 0.2);
   padding: 6px 30px 8px 30px;
@@ -645,39 +670,39 @@ section {
   transition: all ease-in-out 0.4s;
 }
 
-.why-us .content .more-btn i {
+.why-yoga .content .more-btn i {
   font-size: 14px;
 }
 
-.why-us .content .more-btn:hover {
+.why-yoga .content .more-btn:hover {
   color: #5fcf80;
   background: #fff;
 }
 
-.why-us .icon-boxes .icon-box {
+.why-yoga .icon-boxes .icon-box {
   text-align: center;
-  background: #fff;
-  padding: 40px 30px;
+  background: var(--isabelline);
+  padding: 20px 10px;
   width: 100%;
-  border: 1px solid #eef0ef;
+  border: 1px solid var(--fawn);
 }
 
-.why-us .icon-boxes .icon-box i {
+.why-yoga .icon-boxes .icon-box i {
   font-size: 32px;
   padding: 18px;
-  color: #5fcf80;
+  color: var(--blue-ncs);
   margin-bottom: 30px;
   background: #ecf9f0;
   border-radius: 50px;
 }
 
-.why-us .icon-boxes .icon-box h4 {
+.why-yoga .icon-boxes .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 30px 0;
 }
 
-.why-us .icon-boxes .icon-box p {
+.why-yoga .icon-boxes .icon-box p {
   font-size: 15px;
   color: #848484;
 }
@@ -1155,7 +1180,7 @@ section {
 
 .pricing h4 {
   font-size: 36px;
-  color: #5fcf80;
+  color: var(--blue-ncs);
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
@@ -1205,7 +1230,7 @@ section {
 }
 
 .pricing .btn-buy {
-  background: #5fcf80;
+  background: var(--blue-ncs);
   display: inline-block;
   padding: 8px 35px;
   border-radius: 50px;
@@ -1224,7 +1249,7 @@ section {
 
 .pricing .featured h3 {
   color: #fff;
-  background: #5fcf80;
+  background: var(--kombu-green);
 }
 
 .pricing .advanced {
