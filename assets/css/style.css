@@ -5,8 +5,6 @@
 * License: https://bootstrapmade.com/license/
 */
 
-<<<<<<< HEAD
-=======
 :root {
   --isabelline: #f0efebff;
   --ash-gray: #b7b7a4ff;
@@ -14,11 +12,17 @@
   --dark-olive-green: #606c38ff;
   --kombu-green: #283618ff;
   --cornsilk: #fefae0ff;
+  --blue-ncs: #428bb3ff;
+  --space-cadet: #1f2041ff;
   --fawn: #dda15eff;
   --liver-dogs: #bc6c25ff;
-}
+  --eggshell: #f4f1deff;
+  --terra-cotta: #e07a5fff;
+  --independence: #3d405bff;
+  --green-sheen: #81b29aff;
+  --deep-champagne: #f2cc8fff;
+} 
 
->>>>>>> development
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -39,6 +43,11 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+}
+
+h1 strong {
+  color: var(--artichoke);
+  font-size: 3rem;
 }
 
 /*--------------------------------------------------------------
@@ -450,7 +459,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #eee;
   margin: 10px 0 0 0;
   font-size: 24px;
-  width: 60%;
+  /* width: 60%; */
 }
 
 #hero .btn-get-started {
@@ -468,8 +477,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #5fcf80;
-  border: 2px solid #5fcf80;
+  background: var(--fawn);
+  border: 2px solid var(--fawn);
 }
 
 @media (min-width: 1024px) {
@@ -542,7 +551,7 @@ section {
 .breadcrumbs {
   margin-top: 73px;
   text-align: center;
-  background: #5fcf80;
+  background: var(--dark-olive-green);
   padding: 30px 0;
   color: #fff;
 }
@@ -633,11 +642,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-<<<<<<< HEAD
-# Why Yoga
-=======
 # Why Us
->>>>>>> development
 --------------------------------------------------------------*/
 .why-yoga .content {
   padding: 30px;
@@ -676,16 +681,16 @@ section {
 
 .why-yoga .icon-boxes .icon-box {
   text-align: center;
-  background: #fff;
+  background: var(--isabelline);
   padding: 20px 10px;
   width: 100%;
-  border: 1px solid #eef0ef;
+  border: 1px solid var(--fawn);
 }
 
 .why-yoga .icon-boxes .icon-box i {
   font-size: 32px;
   padding: 18px;
-  color: #5fcf80;
+  color: var(--blue-ncs);
   margin-bottom: 30px;
   background: #ecf9f0;
   border-radius: 50px;
@@ -1175,7 +1180,7 @@ section {
 
 .pricing h4 {
   font-size: 36px;
-  color: #5fcf80;
+  color: var(--blue-ncs);
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
@@ -1225,7 +1230,7 @@ section {
 }
 
 .pricing .btn-buy {
-  background: #5fcf80;
+  background: var(--blue-ncs);
   display: inline-block;
   padding: 8px 35px;
   border-radius: 50px;
@@ -1244,7 +1249,7 @@ section {
 
 .pricing .featured h3 {
   color: #fff;
-  background: #5fcf80;
+  background: var(--kombu-green);
 }
 
 .pricing .advanced {
