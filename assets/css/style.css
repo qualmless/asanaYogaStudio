@@ -16,6 +16,11 @@
   --space-cadet: #1f2041ff;
   --fawn: #dda15eff;
   --liver-dogs: #bc6c25ff;
+  --eggshell: #f4f1deff;
+  --terra-cotta: #e07a5fff;
+  --independence: #3d405bff;
+  --green-sheen: #81b29aff;
+  --deep-champagne: #f2cc8fff;
 }
 
 /*--------------------------------------------------------------
@@ -38,6 +43,11 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+}
+
+h1 strong {
+  color: var(--artichoke);
+  font-size: 3rem;
 }
 
 /*--------------------------------------------------------------
@@ -449,7 +459,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #eee;
   margin: 10px 0 0 0;
   font-size: 24px;
-  width: 60%;
+  /* width: 60%; */
 }
 
 #hero .btn-get-started {
