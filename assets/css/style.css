@@ -452,7 +452,7 @@ h1 strong {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Fira", sans-serif;
 }
 
 #hero h2 {
@@ -526,7 +526,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--dark-olive-green);
-  font-family: "Poppins", sans-serif;
+  font-family: "Fira", sans-serif;
 }
 
 .section-title h2::after {
