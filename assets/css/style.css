@@ -42,7 +42,8 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: "Raleway", sans-serif; */
 }
 
 h1 strong {
@@ -154,7 +155,7 @@ h1 strong {
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 #header .logo a {
@@ -197,7 +198,7 @@ h1 strong {
   color: #37423b;
   transition: 0.3s;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-weight: 500;
 }
 
@@ -452,7 +453,7 @@ h1 strong {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 #hero h2 {
@@ -463,7 +464,8 @@ h1 strong {
 }
 
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: "Raleway", sans-serif; */
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 1px;
@@ -526,7 +528,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--dark-olive-green);
-  font-family: "Poppins", sans-serif;
+  font-family: "Fira", sans-serif;
 }
 
 .section-title h2::after {
@@ -543,7 +545,8 @@ section {
   margin-top: 14px;
   font-size: 1rem;
   font-weight: 500;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: "Raleway", sans-serif; */
   color: #37423b;
 }
 
@@ -634,7 +637,8 @@ section {
 .counts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: "Raleway", sans-serif; */
   font-size: 15px;
   font-weight: 600;
   color: #37423b;
@@ -1007,7 +1011,7 @@ section {
   font-weight: 400;
   font-size: 16px;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 .course-details .course-info p {
@@ -1181,7 +1185,7 @@ section {
   font-size: 36px;
   color: var(--blue-ncs);
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   margin-bottom: 20px;
 }
 
@@ -1237,7 +1241,8 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1452,7 +1457,8 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: "Raleway", sans-serif; */
   color: #777777;
 }
 
