@@ -717,6 +717,72 @@ section {
 }
 
 /*--------------------------------------------------------------
+# eightLimbs 
+--------------------------------------------------------------*/
+.eightLimbs .content {
+  padding: 30px;
+  background: var(--fawn);
+  border-radius: 4px;
+  color: #fff;
+}
+
+.eightLimbs .content h3 {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.eightLimbs .content p {
+  margin-bottom: 30px;
+}
+
+.eightLimbs .content .more-btn {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 6px 30px 8px 30px;
+  color: #fff;
+  border-radius: 50px;
+  transition: all ease-in-out 0.4s;
+}
+
+.eightLimbs .content .more-btn i {
+  font-size: 14px;
+}
+
+.eightLimbs .content .more-btn:hover {
+  color: #5fcf80;
+  background: #fff;
+}
+
+.eightLimbs .icon-boxes .icon-box {
+  text-align: center;
+  background: var(--isabelline);
+  padding: 20px 10px;
+  width: 100%;
+  border: 1px solid var(--fawn);
+}
+
+.eightLimbs .icon-boxes .icon-box i {
+  font-size: 32px;
+  padding: 18px;
+  color: var(--blue-ncs);
+  margin-bottom: 30px;
+  background: #ecf9f0;
+  border-radius: 50px;
+}
+
+.eightLimbs .icon-boxes .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+
+.eightLimbs .icon-boxes .icon-box p {
+  font-size: 15px;
+  color: #848484;
+}
+
+/*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
 .features {
